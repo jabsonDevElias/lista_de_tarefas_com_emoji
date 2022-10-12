@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card-add-tarefa{
+  border-radius: 2px;
+  background-color: blueviolet;
+  padding: 2vw 0;
+}
+
+.card-tarefas{
+  background-color: #ccc;
+  padding: 1vw;
+  overflow: auto;
+  height: 52vh;
+}
+
+.row:after, .row:before {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.areadetexto{
+  border-radius: 2px;
+  height: 30vh;
+  border: none;
+  outline: none;
+  resize: none;  
+}
+
+.tarefa{
+  width: 100%;
+  background-color: #fff;
+  margin: 10px auto;
+  border-radius: 2px;
+  padding: 1vw 0.5vw;
+}
+
+.card-tarefas p{
+  font-size: 12px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
